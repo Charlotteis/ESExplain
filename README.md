@@ -1,9 +1,9 @@
-# ExplainingES2015
+# ESExplain
 
 
 ## Documentation Driven Development
 
-We're going to make a static site with fun & friendly ES2015 examples. Too often do we see examples that `foo` and `bar` and `i` and `k`.
+We're going to make a static site with fun & friendly ES examples. Too often do we see examples that `foo` and `bar` and `i` and `k`.
 No longer shall we explain Object Oriented Program with the use of Cars!
 
 I imagine a static two-column website with 'the old way' displayed alongisde the 'new way'. With an explanation at the top.
