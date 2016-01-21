@@ -1,4 +1,4 @@
-header {
+body > header {
     @include contains-floats;
     padding: 30px 100px;
     background: #F2F2F2;
