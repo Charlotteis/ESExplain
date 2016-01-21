@@ -10,4 +10,4 @@ github_username:  charlotteis
 
 # Build settings
 markdown: kramdown
-pygments: true
+highlighter: pygments
