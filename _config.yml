@@ -4,7 +4,7 @@ email: charlottelaspencer@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Explaining new ECMAScript concepts with fun & friendly examples!
 baseurl: "/ESExplain" # the subpath of your site, e.g. /blog/
-url: "http://charlotteis.github.io" # the base hostname & protocol for your site
+url: "https://charlotteis.github.io" # the base hostname & protocol for your site
 twitter_username: charlotteis
 github_username:  charlotteis
 
