@@ -1,11 +1,31 @@
 ---
 layout: page
-title: Home
+title: What is ESExplain?
 permalink: /
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+ESExplain is a website containing articles about the features coming to the JavaScript (ECMAScript) language.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+## How is this different from other resources out there?
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Sometimes learning resources (books, videos, articles) aren't very accessible in their explanations.
+I ([@charlotteis][@charlotteis]) don't find `foo` `bar` `baz` examples very helpful to my learning.
+
+There are so many ways we can illustrate programming concepts that are more interesting that using a `Car` to explain Object Oriented Programming. Check out this [awesome video][good parts] from [@brnnbrn][@brnnbrn] on making JavaScript learning ~fun~.
+
+ESExplain attempts to make ES2015 onwards an approachable set of concepts, with simple language, emoji and a sprinkling of cake references.
+
+Check out the list of articles and start to learn some cool new JavaScripts!
+
+{% highlight javascript %}
+function welcome(name) {
+    return `Hi ${name}, and welcome to ESExplain!`
+}
+
+console.log(welcome('friend'))
+// -> 'Hi friend, and welcome to ESExplain!'
+{% endhighlight %}
+
+[@charlotteis]: https://twitter.com/charlotteis
+[good parts]: https://www.youtube.com/watch?v=2ypYniQa7_o
+[@brnnbrn]: https://twitter.com/brnnbrn
