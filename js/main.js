@@ -28,6 +28,6 @@ window.addEventListener('resize', function() {
     sidebarNav.style.display = 'block';
   } else {
     sidebarNav.style.display = 'none';
-    articlesToggle.textContent = 'Show Articles List';
+    articlesToggle.textContent = 'Show Articles';
   }
 });
