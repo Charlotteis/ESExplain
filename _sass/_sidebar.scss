@@ -1,9 +1,19 @@
 #sidebar {
     @include contains-floats;
     position: relative;
-    padding: 0 100px;
+    padding: 0 30px 0 100px;
     width: 150px;
     float: left;
+
+    #articles-header {
+        display: inline;
+    }
+
+    #js-emoji-book {
+        img {
+            vertical-align: sub;
+        }
+    }
 
     #js-articles-toggle {
         display: none;
@@ -12,6 +22,10 @@
         border: none;
         background: #484848;
         color: #F2F2F2;
+    }
+
+    nav {
+        margin-top: 20px;
     }
 
     ul {
@@ -33,6 +47,7 @@
         nav {
             .has-js & {
                 display: none;
+                margin-top: 15px;
             }        
         }
     }
