@@ -46,7 +46,7 @@ It uses JavaScript to do some interactivity, and serve some awesome emoji using 
 #### Notes
 
 * Use `--watch` :eyes: so Jekyll updates the website locally every time you make a change to a file
-* Use `--buildurl=''` so URLs are built correctly (GitHub Pages does things a little differently on the live version)
+* Use `--baseurl=''` so URLs are built correctly (GitHub Pages does things a little differently on the live version)
 
 [@charlotteis]: https://twitter.com/charlotteis
 [good parts]: https://www.youtube.com/watch?v=2ypYniQa7_o
