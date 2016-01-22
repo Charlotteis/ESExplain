@@ -11,13 +11,24 @@ body {
 }
 
 main {
-    @include contains-floats;
-    float: left;
+    margin-left: 280px;
+
+    @include media-query($on-laptop) {
+        margin-left: 190px;
+    }
 
     @include media-query($on-palm) {
-        float: none;
         clear: both;
+        margin-left: 0;
+        padding: 0 20px;
     }
+}
+
+// Emojis
+span img {
+    vertical-align: baseline;
+    padding-right: 5px;
+    width: 25px;
 }
 
 /**
@@ -71,7 +82,7 @@ code {
 
 code {
     padding: 1px 5px;
-    background-color: #eef;
+    background-color: #F6F6F6;
 }
 
 pre {
