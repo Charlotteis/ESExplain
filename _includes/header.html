@@ -1,12 +1,12 @@
 <header>
   <section id='header-left'>
-    <h1><a href='/'>{{ site.title }}</a></h1>
+    <h1><a href='{{ "/" | prepend: site.baseurl }}'>{{ site.title }}</a></h1>
   </section>
 
   <nav id='header-right'>
     <ul>
       <li>
-        <a href='/'>Home</a>
+        <a href='{{ "/" | prepend: site.baseurl }}'>Home</a>
       </li>
 
       <li>
