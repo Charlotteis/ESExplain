@@ -1,0 +1,39 @@
+#sidebar {
+    @include contains-floats;
+    position: relative;
+    padding: 0 100px;
+    width: 150px;
+    float: left;
+
+    #js-articles-toggle {
+        display: none;
+        margin: 10px 0;
+        padding: 10px;
+        border: none;
+        background: #484848;
+        color: #F2F2F2;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    @include media-query($on-laptop) {
+        padding: 0px 20px;
+    }
+
+    @include media-query($on-palm) {
+        #js-articles-toggle {
+            .has-js & {
+                display: block;;
+            }  
+        }
+
+        nav {
+            .has-js & {
+                display: none;
+            }        
+        }
+    }
+}

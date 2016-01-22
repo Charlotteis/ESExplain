@@ -1,5 +1,23 @@
+@mixin contains-floats {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
 body {
     line-height: 1.5em;
+}
+
+main {
+    @include contains-floats;
+    float: left;
+
+    @include media-query($on-palm) {
+        float: none;
+        clear: both;
+    }
 }
 
 /**
@@ -119,13 +137,5 @@ pre {
         path {
             fill: $grey-color;
         }
-    }
-}
-
-@mixin contains-floats {
-    &:after {
-        content: '';
-        display: block;
-        clear: both;
     }
 }
