@@ -16,10 +16,10 @@ articlesToggle.addEventListener('click', function(event) {
 
   if (sidebarNav.style.display === 'none' || sidebarNav.style.display === '') {
     sidebarNav.style.display = 'block';
-    articlesToggle.textContent = 'Hide Articles List';
+    articlesToggle.textContent = 'Hide Articles';
   } else {
     sidebarNav.style.display = 'none';
-    articlesToggle.textContent = 'Show Articles List';
+    articlesToggle.textContent = 'Show Articles';
   }
 });
 
