@@ -1,7 +1,7 @@
 .post {
+    padding-top: 20px;
     max-width: 700px;
     padding-right: 100px;
-    padding-top: 5px;
 
     @include media-query($on-laptop) {
         padding-right: 20px;
@@ -13,5 +13,10 @@
 
     .post-title {
         display: inline-block;
+        margin-top: 0;
+    }
+
+    .post-meta {
+        margin-top: 0;
     }
 }
