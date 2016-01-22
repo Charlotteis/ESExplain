@@ -18,6 +18,18 @@ body > header {
 
     h1 {
         margin: 0;
+        a {
+            border: none;
+
+            &:active {
+                border: none;
+            }
+
+            &:hover {
+                border: none;
+                padding: 0;
+            }
+        }
     }
 
     ul {
@@ -36,21 +48,6 @@ body > header {
             &:last-of-type {
                 padding: 0 0 0 10px;
             };
-        }
-    }
-
-    a {
-        color: #484848;
-        text-decoration: none;
-        border-bottom: 1px solid #484848;
-
-        &:hover, &:active {
-            color: black;
-            border-bottom: 2px solid black;
-        }
-
-        &:active {
-            padding-bottom: 1px;
         }
     }
 
