@@ -12,6 +12,23 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#skip {
+    @include contains-floats;
+    position: absolute;
+    left: -9999em;
+    float: left;
+    border: none;
+    background: #484848;
+    color: #F2F2F2;
+
+    &:focus, &:active {
+        position: relative;
+        left: 0;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+}
+
 main {
     margin-left: 280px;
 
