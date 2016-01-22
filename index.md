@@ -11,7 +11,7 @@ ESExplain is a website containing articles about the features coming to the Java
 Sometimes learning resources (books, videos, articles) aren't very accessible in their explanations.
 I ([@charlotteis][@charlotteis]) don't find `foo` `bar` `baz` examples very helpful to my learning.
 
-There are so many ways we can illustrate programming concepts that are more interesting that using a `Car` to explain Object Oriented Programming. Check out this [awesome video][good parts] from [@brnnbrn][@brnnbrn] on making JavaScript learning ~fun~.
+There are so many ways we can illustrate programming concepts that are more interesting than using a `Car` to explain Object Oriented Programming. Check out this [awesome video][good parts] from [@brnnbrn][@brnnbrn] on making JavaScript learning ~fun~.
 
 ESExplain attempts to make ES2015 onwards an approachable set of concepts, with simple language, emoji and a sprinkling of cake references.
 
