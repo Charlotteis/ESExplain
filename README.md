@@ -1,16 +1,27 @@
 # ESExplain
 
+:sparkles: Explaining new JavaScript concepts with fun &amp; friendly examples! :sparkles:
 
-## Documentation Driven Development
+![Code of Conduct](https://img.shields.io/badge/%E2%88%9A-Code%20of%20Conduct-orange.svg) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-We're going to make a static site with fun & friendly ES examples. Too often do we see examples that `foo` and `bar` and `i` and `k`.
-No longer shall we explain Object Oriented Program with the use of Cars!
+## What is this?
 
-I imagine a static two-column website with 'the old way' displayed alongisde the 'new way'. With an explanation at the top.
-Bonus points for being able to run them in the web page, but embedded JSBin snippets is probably the most friendly way of doing this!
+ESExplain is a website containing articles about the features coming to the JavaScript (ECMAScript) language.
 
-Let's try deploying to Surge (never used it, could be fun!) every time the repo is updated (is that even possible?).
+## How is this different from other resources out there?
 
-### How is this different from other tutorials?
+Sometimes learning resources (books, videos, articles) aren't very accessible in their explanations.
+I ([@charlotteis][@charlotteis]) don't find `foo` `bar` `baz` examples very helpful to my learning :no_good:.
 
-Maybe it isn't! But my hope is that these will be easier to understand than some of the stuff that is being written right now.
+There are so many ways we can illustrate programming concepts that are more interesting that using a `Car` to explain Object Oriented Programming. Check out this [awesome video][good parts] from [@brnnbrn][@brnnbrn] on making JavaScript learning ~fun~.
+
+ESExplain attempts to make ES2015 onwards an approachable set of concepts, with simple language, emoji and a sprinkling of cake references.
+
+## N I C E, how do I get involved?
+
+Notice a bug :bug:, want to implement a new feature for the website, or help write an article for it? Check out the [contributing][contributing] guide!
+
+[@charlotteis]: https://twitter.com/charlotteis
+[good parts]: https://www.youtube.com/watch?v=2ypYniQa7_o
+[@brnnbrn]: https://twitter.com/brnnbrn
+[contributing]: CONTRIBUTING.md
