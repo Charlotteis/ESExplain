@@ -10,4 +10,10 @@
     <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- Github pages supports https:// so we should use that -->
+    <script>
+      if (location.hostname === 'charlotteis.github.io' && location.protocol !== 'https:') {
+          location.protocol = 'https:';
+      }
+    </script>
 </head>
