@@ -5,6 +5,7 @@ var pencil = document.getElementById('js-emoji-pencil');
 
 var articlesToggle = document.getElementById('js-articles-toggle');
 var sidebarNav = document.getElementById('js-articles-nav');
+var prevWindowWidth = window.innerWidth;
 
 heart.innerHTML = twemoji.parse('\uD83D\uDC96');
 computer.innerHTML = twemoji.parse('\uD83D\uDCBB');
@@ -24,10 +25,15 @@ articlesToggle.addEventListener('click', function(event) {
 });
 
 window.addEventListener('resize', function() {
-  if (window.innerWidth > 600) {
-    sidebarNav.style.display = 'block';
-  } else {
-    sidebarNav.style.display = 'none';
-    articlesToggle.textContent = 'Show Articles';
+  // We need to check specifically if the width has changed, 
+  // discovered this as Google Chrome on Android fires a resize event
+  // when the navigation bar is hidden on scroll!
+  if (window.innerWidth !== prevWindowWidth) {
+    if (window.innerWidth > 600) {
+      sidebarNav.style.display = 'block';
+    } else {
+      sidebarNav.style.display = 'none';
+      articlesToggle.textContent = 'Show Articles';
+    }
   }
 });
