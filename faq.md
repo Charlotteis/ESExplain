@@ -39,7 +39,7 @@ we also don't want to break the web completely.
 Not yet. There are many different browsers and they don't all work in the same way.
 The teams behind them decide which features to implement first, and thus
 there will be disparity between browsers before they are feature complete. Take
-a look at each browsers [implementation progress].
+a look at each browsers [implementation progress][browser progress].
 
 Also, the features are only likely to appear in browser updates.
 Not everyone has a browser like Chrome that continuously updates, particularly in
@@ -72,7 +72,7 @@ Don't know how to work with JavaScript yet? Here are some resources for getting 
 * [Eloquent JavaScript][Eloquent]: an online book
 
 [tc39]: https://github.com/tc39/ecma262#ecmascript
-[progress]: https://kangax.github.io/compat-table/es6/
+[browser progress]: https://kangax.github.io/compat-table/es6/
 [Babel]: http://babeljs.io/
 [in browser]: http://babeljs.io/repl/
 [CONTRIBUTING]: https://github.com/Charlotteis/ESExplain/blob/gh-pages/CONTRIBUTING.md
