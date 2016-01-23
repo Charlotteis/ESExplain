@@ -28,6 +28,8 @@ window.addEventListener('resize', function() {
   // We need to check specifically if the width has changed, 
   // discovered this as Google Chrome on Android fires a resize event
   // when the navigation bar is hidden on scroll!
+  // We also need to check the HTML element width rather than that of the window
+  // as apparantely scroll bars can mess with the width
   if (document.getElementsByTagName('html')[0].offSetWidth !== prevWindowWidth) {
     if (window.innerWidth > 600) {
       sidebarNav.style.display = 'block';
